@@ -13,10 +13,8 @@ body{
     height: auto;
     border: solid snow 3px;
     border-radius: 4px;
-}
-#homeP{
-    width: 40%;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gold{
     color: gold;
@@ -37,6 +35,17 @@ section p{
     width: 75%;
     height: auto;
 }
-.container div p{
-    text-align: inherit;
+.container{
+    display: flex;
+    width: 100%;
+    margin: 40px;
+}
+.box-1{
+    flex: 1;
+}
+.box-2{
+    flex: 1;
+}
+.box-3{
+    flex: 1;
 }
