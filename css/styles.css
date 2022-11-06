@@ -49,6 +49,9 @@ section p{
 .box-3{
     flex: 1;
 }
+
+/* Below this line is media query */
+
 @media screen and (max-width: 900px) {
     .container{
         display: block;
