@@ -14,7 +14,29 @@ body{
     border: solid snow 3px;
     border-radius: 4px;
 }
+#homeP{
+    width: 40%;
+    height: auto;
+}
+.gold{
+    color: gold;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: goldenrod;
+    transition: 1s;
+    box-shadow: 6px 7px 12px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
 section p{
     width: 75%;
     height: auto;
+}
+.container div p{
+    text-align: inherit;
 }
