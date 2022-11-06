@@ -49,3 +49,12 @@ section p{
 .box-3{
     flex: 1;
 }
+@media screen and (max-width: 900px) {
+    .container{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+    
+}
