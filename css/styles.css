@@ -8,7 +8,7 @@ body{
     background-color: rgb(27, 24, 24);
     color: snow;
 }
-#Pizza{
+.recipes{
     width: 65%;
     height: auto;
     border: solid snow 3px;
